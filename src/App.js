@@ -7,20 +7,9 @@ import { global, rule } from 'freestyler'
 import { jsxstyle } from 'freestyler/lib/jsxstyle'
 import CssResetEricMeyer from 'freestyler/lib/globals/CssResetEricMeyer'
 
-
-import WebFont from 'webfontloader';
-
-
 import { hot } from 'react-hot-loader'
 
 import bike from '../images/bike.svg'
-
-
-WebFont.load({
-  google: {
-    families: ['Source Code Pro:300,400,700']
-  }
-})
 
 
 const Global = global({
