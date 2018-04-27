@@ -16,6 +16,10 @@ export default {
         path: '/',
         component: 'src/containers/Home',
       },
+      {
+        path: '/writing',
+        component: 'src/containers/Writing',
+      },
       /*
       {
         path: '/about',
