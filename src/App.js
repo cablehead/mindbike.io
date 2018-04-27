@@ -44,12 +44,12 @@ const Navlink = (props) => <Link {...props} activeClassName="nav-active"/>
 
 
 const Nav = () => (
+  <div style={{ margin: '50px auto', maxWidth:'800px' }}>
+  <div style={{ margin: '0 1rem' }}>
   <div style={{
     display: 'flex',
     justifyContent: 'space-between',
     flexDirection: 'row',
-    margin: '50px auto',
-    maxWidth: '800px',
   }}>
     <div>
       <Link to="/">
@@ -66,6 +66,8 @@ const Nav = () => (
       <div><Navlink to="/writing">Writing</Navlink></div>
       <div><Navlink to="/contact">Contact</Navlink></div>
     </div>
+  </div>
+  </div>
   </div>
   )
 
