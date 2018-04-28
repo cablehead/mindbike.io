@@ -14,7 +14,7 @@ import bike from '../images/bike.svg'
 
 const Global = global({
   'body, a': {
-    fontFamily: "'Source Code Pro', monospace",
+    fontFamily: "Inconsolata, monospace",
     color: '#777',
   },
   'a': {

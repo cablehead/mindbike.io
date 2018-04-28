@@ -13,7 +13,7 @@ export default withSiteData(() => (
     textAlign: 'center',
     }}>
     <p style={{
-    lineHeight: '1em',
+      lineHeight: '1em',
       margin: 0,
       fontSize: '40px',
     }}>
