@@ -3,7 +3,7 @@ import { withSiteData } from 'react-static'
 
 
 export default withSiteData(() => (
-  <div style={{ backgroundColor: '#aaa', padding: '100px 0' }}>
+  <div style={{ backgroundColor: '#0083bf', padding: '100px 0' }}>
   <div style={{ margin: '0 auto', maxWidth:'800px' }}>
   <div style={{ margin: '0 1rem' }}>
   <div style={{
