@@ -16,6 +16,10 @@ const Global = global({
   'body, a': {
     fontFamily: "Inconsolata, monospace",
     color: '#777',
+    fontSize: '12pt',
+  },
+  'h1': {
+    fontSize: '6.5vw',
   },
   'a': {
     textDecoration: 'none',

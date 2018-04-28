@@ -12,13 +12,7 @@ export default withSiteData(() => (
     width: '70%',
     textAlign: 'center',
     }}>
-    <p style={{
-      lineHeight: '1em',
-      margin: 0,
-      fontSize: '40px',
-    }}>
-    mindbike consulting
-    </p>
+    <h1>mindbike consulting</h1>
   </div>
   </div>
   </div>
