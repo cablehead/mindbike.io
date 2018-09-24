@@ -15,17 +15,28 @@ import bike from '../images/bike.svg'
 const Global = global({
   'body, a': {
     fontFamily: "Inconsolata, monospace",
-    color: '#777',
-    fontSize: '12pt',
-  },
-  'h1': {
-    fontSize: '6.5vw',
+    color: '#555',
+    fontSize: '14pt',
   },
   'a': {
-    textDecoration: 'none',
+    textDecoration: 'underline',
   },
   'a:hover': {
-    color: '#333',
+    color: '#8DDBE0',
+  },
+  'p': {
+    marginTop: '2em',
+  },
+  'ul': {
+    marginTop: '1.5em',
+    listStyleType: 'circle',
+  },
+  'ul li' : {
+    marginBottom: '0.5em',
+    marginLeft: '4ch',
+  },
+  'h1': {
+    fontSize: '5.5vw',
   },
   '.nav-active': {
     textDecoration: 'underline',
@@ -56,8 +67,6 @@ const Nav = () => (
       flexDirection: 'row',
       '& div': {marl: '15px'},
     })}>
-      <div><Navlink to="/writing">Writing</Navlink></div>
-      <div><Navlink to="/contact">Contact</Navlink></div>
     </div>
   </div>
   </div>
@@ -67,7 +76,7 @@ const Nav = () => (
 
 const App = () => (
   <Router>
-    <div>
+    <div style={{ marginBottom: '4em' }}>
       <CssResetEricMeyer />
       <Global />
       <Head title="mindbike.io" />
