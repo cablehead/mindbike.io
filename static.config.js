@@ -46,4 +46,8 @@ export default {
       },
     ]
   },
+
+  plugins: [
+    ["react-static-plugin-google-analytics", {id: 'UA-127815006-2'}]
+  ]
 }
